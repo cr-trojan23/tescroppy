@@ -4,6 +4,7 @@ from pdf2image import convert_from_path
 import pytesseract
 import sys
 import os
+import numpy
 
 
 def toImages(pdf_name):
